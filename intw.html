@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            .accordion-body{
+                background-color: orangered;
+            }
+            .accordion-button{
+                background-color: aqua;
+            }
+        </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is html?
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> HTML stands for Hypertext Markup Language, and it's a text-based scripting
+                    language used to structure and describe the content of a web page</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    what is doctype in html?
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">DOCTYPE, or document type declaration, is a set of instructions that tells a
+                    web browser or email client what version of HTML</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    what is tag? how many type of tags?
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Tags are the fundamental building blocks of HTML, used to define and
+                    structure the content of a webpage. They are enclosed within angle brackets (<>) and typically come
+                        in pairs, with an opening tag and a closing tag. <br>
+                        There are two types of Tags <br>
+                        <li>paired tag</li>
+                        <li>unpaired tags</li>
+                        <p>Paired tags in HTML are tags that come in pairs: an opening tag and a closing tag. The
+                            opening tag marks the beginning of an element, while the closing tag indicates its end.</p>
+                        <p>Unpaired tags in HTML are tags that do not have a corresponding closing tag. They are
+                            typically used to represent self-closing elements.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is element in html?
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Element is the combination of staring tag + Content + closing tag</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is d/f b/w the tag and element?
+                </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">In HTML, tags represent the structural components of a document, such as for
+                    headings. Elements are formed by tags and encompass both the opening and closing tags along with the
+                    content</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is attr?
+                </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">In html attribute is nothing but it gives extra information about particular
+                    element</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is d/f b/w the href and src attr?
+                </button>
+            </h2>
+            <div id="flush-collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The href attribute specifies the location (URL) of a resource, that an
+                    anchor element points to, or the location of a linked resource, like a stylesheet. While the src
+                    attribute is used to embed a resource - usually URLs - into a document, think embedded images
+                    (<img>) and tags.</div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is the attr in html tags?
+                </button>
+            </h2>
+            <div id="flush-collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> language.</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is marquee tag?
+                </button>
+            </h2>
+            <div id="flush-collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The marquee tag is an HTML element that makes text or images scroll
+                    automatically across a web page.</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapseOne">
+                    define list types in html?
+                </button>
+            </h2>
+            <div id="flush-collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">There are three types of list <br>
+                    <li>order list</li>
+                    <li>Unordered list</li>
+                    <li>defination lis</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what are the formatting tags?
+                </button>
+            </h2>
+            <div id="flush-collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> Formatting elements were used to format the document: <br>
+
+
+                    bold<b> - Bold text </b> <br>
+                    strong <strong> - Important text </strong> <br>
+                    italic <i> - Italic text </i> <br>
+                    Emphasized <em> - Emphasized text </em> <br>
+                    mark <mark> - Marked text </mark> <br>
+                    small <small> - Smaller text </small> <br>
+                    delete <del> - Deleted text </del> <br>
+                    insert <ins> - Inserted text </ins> <br>
+                    Subscript <sub> - Subscript text </sub> <br>
+                    Superscript <sup> - Superscript text <br></div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is the bold and strong tags?
+                </button>
+            </h2>
+            <div id="flush-collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">bold tag: The HTML tag defines text to be displayed in bold without
+                    conveying additional semantic significance or importance within the document structure.<br>strong
+                    tag: The strong tag is one of the elements of HTML used in formatting HTML texts. It is used to
+                    define text with strong importance, often displayed in bold, contributing to both visual styling and
+                    semantic emphasis within the document structure.</div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is SEO?
+                </button>
+            </h2>
+            <div id="flush-collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> SEO stands for Search Engine Optimization, and it's the process of making a
+                    website easier for search engines to understand and for users to find. </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what are SEO methods?
+                </button>
+            </h2>
+            <div id="flush-collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <pre>
+                    keywords
+                    title Tags
+                    meta Tags
+                    header discriptions
+                  </pre>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapseOne">
+                    how many type of elements we have in html?
+                </button>
+            </h2>
+            <div id="flush-collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">There are two types of elements:
+                    <li>block level elements</li>
+                    <li>inline elements</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse16" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is d/f b/w block elements vs inline elements?
+                </button>
+            </h2>
+            <div id="flush-collapse16" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><b>Block: </b>A block element takes up the full width available, and has a
+                    line break before and after it. <br><b>Inline:</b> An inline element does not have line break before
+                    and after it, and only takes up as much width as necessary.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse17" aria-expanded="false" aria-controls="flush-collapseOne">
+                    what is semantic vs non-semantic elements?
+                </button>
+            </h2>
+            <div id="flush-collapse17" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><b>Semantic tags</b> clearly describe their meaning to both the browser and
+                    the developer, indicating what type of content they contain. <br><b>Non-semantic tags</b> , on the
+                    other hand, don't convey any information about their content, serving purely as containers without
+                    imparting any meaning about their enclosed data.
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse18" aria-expanded="false" aria-controls="flush-collapseOne">
+                        d/f b/w div and span?
+                    </button>
+                </h2>
+                <div id="flush-collapse18" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><b>Div</b> tags
+                        Used to create sections or divisions in a document, and to style them as a whole. Div tags are
+                        used for block-level organization and styling, and are purely for layout purposes. They don't
+                        have any semantic meaning. <br>
+                        <b>Span</b> tags
+                        Used for inline organization and styling, and are typically used for line-level content, such as
+                        short strings or individual words. Span tags are often used to apply styles or target a section
+                        of text or inline elements with JavaScript.
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsenineteen" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Lists vs table
+                        </button>
+                    </h2>
+                    <div id="flush-collapsenineteen" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <b>list</b> <br>
+
+                            Nests within ol or ul <br>
+
+                            Text or simple elements <br>
+
+                            Lists, sequential data <br>
+
+                            <b>table</b> <br>
+
+                            Contains tr and td elements <br>
+
+                            Can contain complex content <br>
+
+                            Tabular data, complex layouts
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsetwenty" aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            what are meta tags?
+                        </button>
+                    </h2>
+                    <div id="flush-collapsetwenty" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Meta tags are HTML tags that provide information about a web page to search engines and
+                            other
+                            clients. They are usually placed in the section of an HTML page and are only visible to
+                            search
+                            engines and people who know where to look
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse21" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is use of forms in html?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse21" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            HTML forms are used to collect user input and send it to a server for processing. Users can
+                            fill out
+                            forms by entering text, selecting menu items, or using checkboxes and radio buttons.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse22" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what are the form elements?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse22" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <pre> <b>
+                    input
+                    label
+                    select
+                    textarea
+                    button
+                    fieldset
+                    legend
+                    datalist  </b></pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse23" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what are form attributes in html
+                        </button>
+                    </h2>
+                    <div id="flush-collapse23" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+
+                            The form attribute specifies the form the element belongs to. The value of this attribute
+                            must be equal to the id attribute of a form element in the same document.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse24" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what are the iframes?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse24" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            An iframe, or inline frame, is an HTML element that allows you to embed another HTML
+                            document within your own page. This lets you display content from other websites on your
+                            page, such as videos, maps, social media feeds, and advertisements.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse25" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is the advantage of collapsing in whitespace?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse25" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            While you are writing the HTML for your web page you want the code to be more
+                            understandable/readable to the users. Collapsing white spaces decreases the transmission
+                            time between the server and the client because collapsing features remove unnecessary bytes
+                            that are occupied by the white spaces
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse26" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what are the html entities?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse26" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            HTML entities are character sequences that represent special characters or reserved
+                            characters in HTML documents. They are used to display characters that are not available on
+                            a standard keyboard or that have special meanings in HTML, such as tags or attribute values
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse27" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what re the features of html 5?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse27" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <pre>
+                    Semantic Elements.
+                    Audio and Video Support.
+                    Canvas Elements.
+                    Geolocation API.
+                    Local Storage.
+                    Responsive Images.
+                    Web Workers.
+                    Drag and Drop API.
+                   </pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse28" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what are the elements and tags are same thing in html?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse28" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            In HTML, tags represent the structural components of a document, such as for headings.
+                            Elements are formed by tags and encompass both the opening and closing tags along with the
+                            content. Attributes provide additional information or properties to elements, enhancing
+                            their functionality or appearance.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse29" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is git???
+                        </button>
+                    </h2>
+                    <div id="flush-collapse29" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Git is a free, open-source version control system that helps software developers collaborate
+                            on projects. It's the most widely used version control system in the world and is considered
+                            the modern standard for software development.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse30" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is d/f b/w git vs github?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse30" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Git is a version control system that lets you manage and keep track of your source code
+                            history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If
+                            you have open-source projects that use Git, then GitHub is designed to help you better
+                            manage them.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse31" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is local repository and github repository in git
+                        </button>
+                    </h2>
+                    <div id="flush-collapse31" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            A local repository is a copy of the entire project's history and codebase that resides on a
+                            developer's machine. When a developer initializes a local repository, Git sets up the
+                            necessary infrastructure to track changes, branches, and commits within the project. <br>In
+                            Git, a remote repository is a version of a project that's hosted on a network or the
+                            internet and shared among multiple team members. Remote repositories can be located on a
+                            local machine, but the term "remote" doesn't necessarily mean that the repository is on a
+                            different network or internet location
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse32" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is the command to initialize the git to your local directory?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse32" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Initializing a new repository: git init</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse33" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is the command to use in order to move the changes to staged area?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse33" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            git add <,filename>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse34" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is the command to use to commit all the staged change local repository?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse34" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            git commit -m "Your commit message here"
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse35" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is the difference between push and pull in git
+                        </button>
+                    </h2>
+                    <div id="flush-collapse35" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            To bring the remote changes to the local workspace, we use git pull. If you are working in
+                            project and you need to bring in the changes from remote repository, pull is used. Git push:
+                            To push the local changes to the remote repository, we use git push.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse36" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what are the ways of getting code from github?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse36" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <pre>
+                        Go to the repository's main page on GitHub 
+Click Releases to the right of the file list 
+Scroll to the Assets section of the release 
+Click Source code (zip) or Source code (tar.gz) 
+                    </pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse37" aria-expanded="false" aria-controls="flush-collapseOne">
+                            know the d/f b/w the all type of getting code?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse37" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">1. Cloning a Repository:
+        
+                            Definition: Creating a local copy of a remote Git repository. <br>
+                            Advantages: <br>
+                            Full control over the code's structure, logic, and implementation.
+                            Potential for a deep understanding of the code's functionality.
+                            Tailored to specific needs and requirements. <br>
+                            Disadvantages: <br>
+                            Time-consuming and resource-intensive.
+                            Requires strong programming skills and expertise.
+                            May introduce errors or inefficiencies if not carefully crafted. <br>
+                            2. Using Submodules:
+        
+                            Definition: Incorporating external Git repositories as subdirectories within your main project.
+                            Advantages:
+                            Saves time and effort by avoiding reinventing the wheel.
+                            Access to well-tested and optimized code.
+                            Encourages code reuse and modularity. <br>
+                            Disadvantages: <br>
+                            May require learning new APIs or syntax.
+                            Can introduce dependencies and potential compatibility issues.
+                            May not always provide the exact functionality or customization needed.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse38" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is the flow of git?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse38" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">1.Initialization: Create a new Git repository using git init in your
+                            project's directory. <br>
+                            2.Staging: Add changes to the staging area using git add filename. This prepares the files for
+                            commit. <br>
+                            3.Committing: Create a snapshot of the staged changes using git commit -m "Commit message". This
+                            saves the changes to your local repository. <br>
+                            4.Pushing: Upload your local commits to a remote repository using git push remote branch. This makes
+                            your changes accessible to others.
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse39" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is git status?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse39" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Git status is a command used in Git to check the current state of your
+                            working directory and staging area. It provides information about which files have been modified,
+                            added, deleted, or staged for commit. <br>
+                            Key information provided by git status: <br>
+        
+                            Branch: The current branch you are working on. <br>
+                            Untracked files: Files that are not being tracked by Git. <br>
+                            Changes not staged for commit: Modified files that have not been added to the staging area. <br>
+                            Changes to be committed: Files that have been added to the staging area and are ready to be <br>
+                            committed.
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse40" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is the command which we need to use to create a branch and branch name?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse40" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">  branch-name with the desired name for your new branch.
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse41" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is the command to check the branches in git repo? git branch
+        
+                        </button>
+                    </h2>
+                    <div id="flush-collapse41" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">To see local branches, run this command: git branch. <br>
+                            To see remote branches, run this command: git branch -r. <br>
+                            To see all local and remote branches, run this command: git branch -a. <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse42" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is the command to switch b/w the branches?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse42" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <pre>
+                                git checkout: Switches between branches or commits in a Git repository. You can use this command to switch to a new branch by typing git checkout new_branch. You can also use this command to checkout remote branches by typing git checkout remotebranch.
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse43" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is the command to check no of commits?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse43" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><pre>
+                            It can be used to count commits by author or overall.
+                             Open a terminal or command prompt.
+                             Navigate to your Git repository using the cd command. 
+                             Run the command git shortlog -sn –all
+                        </pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse44" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is the cd command and why we need to ue it?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse44" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The cd command, also known as chdir (change directory), is a command-line shell command used to change the current working directory in various operating systems. It can be used in shell scripts and batch files.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse45" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            ls command?
+        
+                        </button>
+                    </h2>
+                    <div id="flush-collapse45" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">ls command is used to list the contents of a current directory. Copied! ls lists files and directories in the bare format where details like file types, size, modified date, modified time, permission, links, etc can't be viewed
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse46" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            cls command?
+        
+                        </button>
+                    </h2>
+                    <div id="flush-collapse46" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The CLS command clears the screen or console window of commands and any output generated by them. It's used by the command-line interpreters COMMAND.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse47" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is command to check whether git is in my machine or not?
+        
+                        </button>
+                    </h2>
+                    <div id="flush-collapse47" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">You can check whether Git is installed and what version you are using by opening up a terminal window in Linux or Mac, or a command prompt window in Windows, and typing the following command: git --version.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+</body>
+
+</html>
